@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box; /*iniciar o projeto com isso sempre*/
 }
 
 :root {
@@ -27,24 +27,26 @@ body {
   
 }
 
-/* Menu item */
+a { 
+    text-decoration: none;
+    color: inherit; 
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 4px;
-gap: 8px;
+}
 
-width: 72px;
-height: 32px;
+a:hover {
+    color: #EF5F4C;
+    text-decoration: underline;
+}
 
+.container {
+    padding-inline: 32px; 
+    max-width: 1280px;
+    margin-inline: auto; 
+}
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
+.surfacecolor {
+    background-color: var(--surface-color);
+}
 
 
 
