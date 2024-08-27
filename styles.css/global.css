@@ -13,10 +13,38 @@
     --text-color-primary: #313131;
     --text-color-secondary: #6c6c6c;
     
+    --font-family: "Poppins", sans-serif;
+    --text-lg: bold 32px/125% var(--font-family);
+    --text-md: 14px/170% var(--font-family);
+    --text-sm: 12px/170% var(--font-family);
+    --text: 16px/150% var(--font-family);
+    
 }
 
 body {
     color:var(--text-color-secondary);
     background-color: var(--background-color);
-    
+  
 }
+
+/* Menu item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px;
+gap: 8px;
+
+width: 72px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+
